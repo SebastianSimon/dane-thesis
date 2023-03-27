@@ -56,10 +56,9 @@
 |               | `│   ├── Added security value of DANE.md` |
 |      ⭐        | `│   ├── Definition of Identity, Authentication, Identity management and life cycle.md` |
 |      ⭐        | `│   ├── DNSSEC as basis for DANE.md` |
-|      ⭐        | `│   ├── DNSSEC requirements for DANE.md` |
 |      ⭐        | `│   ├── Interaction between DNSKEY, DS, NSEC, and RRSIG.md` |
 |      ⭐        | `│   ├── Overview of DANE.md` |
-|      ⭐        | `│   ├── Public-key cryptography.md` |
+|               | `│   ├── Public-key cryptography.md` |
 |      ⭐        | `│   └── TLSA RRs.md` |
 |               | `└── Life cycle analysis` |
 |      ⭐        | `    ├── Life-cycle analysis.md` |
@@ -68,4 +67,4 @@
 |               | `        ├── TLSA RRs` |
 |      ⭐        | `        │   └── Life cycle events of a TLSA RR.md` |
 |               | `        └── TLS certificates` |
-|      ⭐        | `            └── Introduction.md` |
+|               | `            └── Introduction.md` |
