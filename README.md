@@ -1,6 +1,10 @@
 # BSc computer science thesis about DNS-based Authentication of Named Entities (DANE) identity management
 
-## Temporary structure
+## New structure
+
+See [`Structure.md`](Structure.md).
+
+## Old structure
 
 1. Abstract
 2. Introduction
