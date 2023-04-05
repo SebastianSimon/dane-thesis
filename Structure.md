@@ -89,13 +89,17 @@ Section 2 examines the _protocol_ aspect, section 3 examines the _standards_ asp
 
 * Avoiding user error
 
-### 4.1. OpenSSL
+### 4.1. host, dig
 
-### 4.2. Node.js server and API
+### 4.2. nmap
+
+### 4.3. OpenSSL
+
+### 4.4. Node.js server and API
 
 * Automation
 
-### 4.3. Web application and user interface
+### 4.5. Web application and user interface
 
 * User guidance, UX, intuitive UI
 * Communicating the security state to the user
