@@ -6,7 +6,7 @@ Similar to the one from Proposal.
 
 ## Table of contents
 
-This.
+The headings of this document become the TOC.
 
 ## 1. Introduction
 
@@ -25,10 +25,11 @@ Section 2 examines the _protocol_ aspect, section 3 examines the _standards_ asp
 
 * Purpose
 * PKIX
-* CAs
 * X.509
+* CAs
 * PEM / DER
 * Validity period
+* Workflow
 * …
 
 ### 2.2. The Domain Name System (DNS)
@@ -37,11 +38,12 @@ Section 2 examines the _protocol_ aspect, section 3 examines the _standards_ asp
 * Architecture
 * DNS zones and DNS names
 * RR types
+* Presentation vs. wire format
 * …
 
 #### 2.2.1. Security extensions for the DNS (DNSSEC)
 
-* Chain of trust
+* Chain of trust with RRSIG, DNSKEY (KSK, ZSK), DS, NSEC
 * Purpose of DNSSEC for DANE
 * …
 
@@ -51,25 +53,32 @@ Section 2 examines the _protocol_ aspect, section 3 examines the _standards_ asp
 * Usages
 * Recommended parameter combinations
 * Validity of a TLSA RRSet
+* Name `_443._tcp.`…
+* Validation: Opportunistic Security, Certificate Transparency
+* Client and server requirements
 * …
 
-#### 2.2.3. Other DANE associations: SSHFP, IPSECKEY, SMIMEA, OPENPGPKEY
+#### 2.2.3. Other DANE associations: IPSECKEY, SSHFP, OPENPGPKEY, SMIMEA
 
 * Purpose of each one
 
 ### 2.3. Related problems solved by similar protocols
 
-* DNS over HTTPS
-* RFC 7817
+* RFC 7817: TLS server identity check for email-related protocols
+* RFC 7817: DNS over HTTPS
 * …
 
 ## 3. The standards aspect of identity management
 
 ### 3.1. Terminology
 
-* Identity
+* Identity, entity
+* Identification
+* Identifier, attribute
+* Reference vs. presented identity
+* Authenticator, credential
+* Identity proofing, Authentication
 * Identity management
-* Authentication
 * …
 
 ### 3.2. Identity life cycle and Identity management
@@ -81,7 +90,8 @@ Section 2 examines the _protocol_ aspect, section 3 examines the _standards_ asp
 
 * Availability
 * Maybe ISO 27001
-* …
+* Man-in-the-middle attacks
+* Lack of trust in CA
 
 ### 3.4. Usability (and accessibility)
 
@@ -95,12 +105,14 @@ Section 2 examines the _protocol_ aspect, section 3 examines the _standards_ asp
 
 ### 4.3. OpenSSL
 
-### 4.4. Node.js server and API
+### 4.4. Node.js backend and API
 
 * Automation
+* Future-proofing for future DANE extensions
 
 ### 4.5. Web application and user interface
 
+* DNS Management and Certificate (or Public key) Management as two “subsystems” of DANE Identity Management
 * User guidance, UX, intuitive UI
 * Communicating the security state to the user
 
@@ -110,3 +122,5 @@ Section 2 examines the _protocol_ aspect, section 3 examines the _standards_ asp
 * Evaluation of how it increases security
 * Possible integration into a real DNS manager
 * Maybe prior work?
+
+## References
