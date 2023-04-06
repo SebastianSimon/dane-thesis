@@ -178,7 +178,7 @@ We’re not concerned with the identity of the _physical_ server.
 
 See this model:
 
-![NIST 800-63-3 Enrollment and Identity Proofing.png](NIST 800-63-3 Enrollment and Identity Proofing.png)
+![NIST 800-63-3 Enrollment and Identity Proofing](NIST%20800-63-3%20Enrollment%20and%20Identity%20Proofing.png)
 
 Applicant becomes Subscriber through Identity Proofing.
 Claimant is verified to be valid Subscriber through Authentication.
