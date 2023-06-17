@@ -1,0 +1,8 @@
+I hereby declare that the thesis submitted is my own, unaided work, completed without any unpermitted external help. Only the sources and resources listed were used.
+
+Place, Date:  
+Berlin, 2023-04-25
+
+Signature:  
+![](Signature.png){ width=200px }  
+Sebastian Simon
